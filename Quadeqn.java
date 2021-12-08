@@ -1,5 +1,5 @@
 import java.util.*;
-class Main
+class Quadeqn
 {
 public static void main(String args[])
 {
