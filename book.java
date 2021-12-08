@@ -34,7 +34,7 @@ class book
       name = sc.next();
       System.out.print("\nEnter the price of the book : ");
       price = sc.nextInt();
-      System.out.print("\nEnter the no. pages of the book : ");
+      System.out.print("\nEnter the no. of pages of the book : ");
       num_pages = sc.nextInt();
       b[i] = new book(name, author,price, num_pages);
     }
