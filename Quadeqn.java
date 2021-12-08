@@ -1,11 +1,11 @@
 import java.util.*;
-class Quadeqn
+class Main
 {
 public static void main(String args[])
 {
 int a,b,c,res;
 float root1,root2,disc;
-System.out.println("Enter the values of a,b,c:\n");
+System.out.println("Enter the values of a,b,c: ");
 Scanner sc=new Scanner(System.in);
 a=sc.nextInt();
 b=sc.nextInt();
@@ -23,7 +23,7 @@ case 1:
 System.out.println("Roots are real");
 root1=((-1*b)+(float)(Math.sqrt(disc)))/(2*a);
 root2=((-1*b)-(float)(Math.sqrt(disc)))/(2*a);
-System.out.println("roots1:"+root1+"\nroot2:"+root2);
+System.out.println("root1:"+root1+"\nroot2:"+root2);
 break;
 case -1:
 System.out.println("roots are imaginary");
@@ -36,7 +36,7 @@ break;
 case 0: 
 System.out.println("roots are equal");
 root1=root2=(-b)/(2*a);
-System.out.println("roots are:"+root1+"\n "+root2);
+System.out.println("roots are:"+root1+", "+root2);
 break;
 }
 }
