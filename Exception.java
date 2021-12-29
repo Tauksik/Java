@@ -26,7 +26,7 @@ class Son extends Father
     }
     
 } 
-class Generics
+class Exception
 {
   public static void main (String args[]) throws WrongAge
   {
